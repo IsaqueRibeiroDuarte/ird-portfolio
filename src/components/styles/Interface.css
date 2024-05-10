@@ -173,6 +173,7 @@ section.site-top .top-text h2 span.qualities{
     cursor:context-menu;
 }
 
+
 section.site-top .top-text h2 span.text-alt-span {
     margin-top: 10px;
     letter-spacing: 5px;
@@ -270,6 +271,7 @@ p.curriculo-text {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     transition: 0.5s;
+    font-family: 'Poppins', sans-serif;
 }
 
 .box-projetos:hover {
@@ -341,6 +343,11 @@ p.curriculo-text {
 }
 
 /* Ícones/Imagens e Span's das Tecnologias */
+.box-projetos .imgLogo {
+    width: 25px;
+    vertical-align:text-bottom;
+}
+
 .content .imgLogo {
     width: 20px;
     vertical-align:text-bottom;
@@ -509,7 +516,6 @@ section#sobre ul li:hover a span.text-sobre {
     transform: scale(1.05);
     box-shadow: 0px 0px 12px #FFFFFF;
 }
-
 
 /*  Paleta de Cores
 #020202

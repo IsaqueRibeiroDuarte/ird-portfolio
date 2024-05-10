@@ -41,6 +41,7 @@ import ImgMP from "../../assets/image/MP.png";
 import LogoCSS from "../../assets/image/Logo_CSS.svg";
 import LogoHTML from "../../assets/image/Logo_HTML.svg";
 import LogoJS from "../../assets/image/Logo_JS.png";
+import LogoRJS from "../../assets/image/Logo_ReactJS.svg";
 
 const Interface = () => {
   return (
@@ -380,25 +381,25 @@ const Interface = () => {
               {/* <!--/box-projetos--> */}
               
               <div className="box-projetos">
-                <h3>Meu Portfolio</h3>
+                <h3>IRD Portfolio</h3> React JS <img className="imgLogo" src={LogoRJS}></img>
                 <img src={ImgMP} className="imagem LPA" />
                 <div class="content">
                   <p>
                     Tecnologias: <img className="imgLogo" src={LogoHTML} />
                     HTML
-                    <span className="html-percent"> 82.4%</span>
+                    <span className="html-percent"> 5.3%</span>
                     <br />
                     <img className="imgLogo" src={LogoCSS}></img>CSS
-                    <span className="css-percent"> 16.3%</span>
+                    <span className="css-percent"> 29.6%</span>
                     <br />
                     <img className="imgLogo" src={LogoJS}></img>JS
-                    <span className="js-percent"> 1.3%</span>
+                    <span className="js-percent"> 65.1%</span>
                     <br />
                     Desenvolvimento da primeira versão do meu Portfolio.
                   </p>
                   <div className="buttons">
                     <a
-                      href="https://orffmusic-site.netlify.app/"
+                      href="ird-meu-portfolio.vercel.app"
                       target="_blank"
                     >
                       Acessar a Página
@@ -408,7 +409,7 @@ const Interface = () => {
 
                   <div className="buttons">
                     <a
-                      href="https://github.com/IsaqueRibeiroDuarte/OrffMusic-Site"
+                      href="https://github.com/IsaqueRibeiroDuarte/ird-portfolio"
                       target="_blank"
                     >
                       Acessar o Repositório
